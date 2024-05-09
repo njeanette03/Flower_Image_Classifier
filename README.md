@@ -1,4 +1,4 @@
-# Image_Classifier
+# Image Classifier
 
 For my final capstone for the AI programming in Python nanodegree at Udacity, I built and trained an image classifier to recognize different species of flowers on a Flower Dataset and then predicted new flower images. The Dataset contains 102 flower categories.
 
