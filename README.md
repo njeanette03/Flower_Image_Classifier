@@ -6,7 +6,7 @@ I developed the code in Python for an image classifier built with PyTorch, then 
 
 ## Walk through: The classifier
 
-In Image_classifier_project.ipynb, the VGG network from torchvision.models pretrained models was used. It was loaded as a pre-trained network, based on which defined a new, untrained feed-forward network as a classifier, using ReLU activations and dropout. I then trained the classifier layers using backpropagation using the pre-trained network to get the features. The loss and accuracy on the validation set were tracked to determine the best hyperparameters.
+In Image_classifier_project.ipynb, the VGG network from torchvision.models pretrained models was used. It was loaded as a pre-trained network, based on which defined a new, untrained feed-forward network as a classifier, using ReLU activations and dense layers. I then trained the classifier layers using backpropagation using the pre-trained network to get the features. The loss and accuracy on the validation set were tracked to determine the best hyperparameters.
 
 ### Preparation of Tensor data and label mappiing
 To make sure my neural network trained properly, I organized the training images in folders names as their class name, training, testing, and validation folders, as follows:
